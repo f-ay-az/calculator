@@ -1,3 +1,5 @@
 # Calculator lab project
 ## How to run it
-#Coming in Week 3
+#Run: python3 calculator.py
+#Operations: + - * / (two numbers)
+
