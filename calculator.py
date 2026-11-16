@@ -14,9 +14,9 @@ def divide(a, b):
 
 def CircleArea(r):
 	if r >= 0:
-	return 3.14 * r * r
-else:
-	return "NaN"
+                return 3.14 * r * r
+        else:
+                return "NaN"
 
 
 def main():
