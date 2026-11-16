@@ -1,9 +1,9 @@
 name: Calculator CI
 
 on:
-  Python version "3.11"
-    branches:main
-  pull_request
+  push:
+    branches: [main]
+  pull_request:
 
 permissions:
   contents: read
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the code
-        uses: tests
+        uses: actions/checkout@v4
       - name: Set up Python
         uses: actions/setup-python@v7
         with:
