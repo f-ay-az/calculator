@@ -20,3 +20,5 @@ def test_zero_multiply():
 	# Assert
 	assert result == 0
 
+def test_circleArea():
+	assert CircleArea(-4) == "Error"
